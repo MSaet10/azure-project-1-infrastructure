@@ -97,6 +97,27 @@ The environment was tested by simulating real-world incidents to validate monito
 - Verified RBAC restrictions were working correctly.
 - Lesson: RBAC prevents unauthorized changes and protects resources.
 
+## Cost Optimization
+
+Azure Cost Management was used to monitor and control spending for the environment.
+
+Cost optimization steps implemented:
+- Stopped virtual machines when not in use
+- Used Standard HDD managed disks instead of Premium SSD
+- Used Consumption plan for Azure Functions (serverless)
+- Configured budget alerts at 50%, 75%, and 90% thresholds
+- Used resource tags for cost tracking (Project: CloudPortfolio)
+- Reviewed Cost Analysis by resource to identify highest cost resources
+
+Primary cost-generating resources:
+- Virtual Machines
+- Managed Disks
+- Public IP Addresses
+- Load Balancer
+- Log Analytics Workspace
+- Storage Account
+- Recovery Services Vault (Backup)
+
 
 
 
