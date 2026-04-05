@@ -29,8 +29,8 @@ The following cost optimization strategies were implemented:
 ## Budget Alerts
 A monthly budget was created with alerts at:
 - 50% budget usage
-- 75% budget usage
-- 90% budget usage
+- 70% budget usage
+- 80% budget usage
 
 This helps prevent unexpected Azure charges.
 
