@@ -105,7 +105,7 @@ Cost optimization steps implemented:
 - Stopped virtual machines when not in use
 - Used Standard HDD managed disks instead of Premium SSD
 - Used Consumption plan for Azure Functions (serverless)
-- Configured budget alerts at 50%, 75%, and 90% thresholds
+- Configured budget alerts at 50%, 70%, and 80% thresholds
 - Used resource tags for cost tracking (Project: CloudPortfolio)
 - Reviewed Cost Analysis by resource to identify highest cost resources
 
