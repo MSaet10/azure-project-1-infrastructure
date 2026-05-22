@@ -142,6 +142,6 @@ Key lessons learned:
 
 This project demonstrated the deployment of a full Azure infrastructure environment including networking, compute, load balancing, identity and access management, monitoring, serverless computing, backup and disaster recovery, cost optimization, and incident simulation.
 
-The environment was monitored, secured, tested for failures, and documented to simulate real-world cloud engineering and cloud operations scenarios. This project demonstrates practical Azure administration, infrastructure deployment, monitoring, troubleshooting, and documentation skills suitable for cloud engineering and cloud administrator roles.
+The environment was monitored, secured, tested for failures, and documented to simulate real-world cloud engineering and cloud operations scenarios. This project demonstrates practical Azure administration, infrastructure deployment, monitoring, troubleshooting, and documentation skills. 
 
 
