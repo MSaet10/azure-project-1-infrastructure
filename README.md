@@ -6,7 +6,7 @@ This project demonstrates the deployment of a secure, scalable, and monitored Az
 The goal of this project was to simulate a real-world Azure cloud environment and demonstrate cloud engineering, infrastructure deployment, monitoring, security, and operational troubleshooting skills.
 
 ## Architecture
-![Azure Infrastructure Architecture](azure-project-1-infrastructure/diagrams/Architecture diagram.png)
+![Azure Infrastructure Architecture](azure-project-1-infrastructure/diagrams/Architecture-diagram.png)
 
 ## Technologies Used
 - Microsoft Azure
