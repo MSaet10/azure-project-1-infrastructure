@@ -62,43 +62,43 @@ Simulated real-world incidents including VM outage, NSG HTTP blocking, CPU spike
 The environment was tested by simulating real-world incidents to validate monitoring, alerting, and troubleshooting procedures.
 
 ### Incident 1 — Virtual Machine Outage
-- VM was manually stopped.
-- Azure Monitor alert detected VM availability issue.
-- Load Balancer redirected traffic to the remaining VM.
-- Resolution: Restarted VM.
-- Lesson: Monitoring and high availability work together to maintain uptime.
+- VM was manually stopped
+- Azure Monitor alert detected VM availability issue
+- Load Balancer redirected traffic to the remaining VM
+- Resolution: Restarted VM
+- Lesson: Monitoring and high availability work together to maintain uptime
 
 ### Incident 2 — Network Security Group Blocking HTTP
-- An NSG inbound deny rule blocked port 80.
-- Website became inaccessible.
-- Investigation showed NSG rule blocking HTTP.
-- Resolution: Removed deny rule.
-- Lesson: NSG rules and priorities can directly impact application availability.
+- An NSG inbound deny rule blocked port 80
+- Website became inaccessible
+- Investigation showed NSG rule blocking HTTP
+- Resolution: Removed deny rule
+- Lesson: NSG rules and priorities can directly impact application availability
 
 ### Incident 3 — High CPU Usage
-- CPU usage was artificially increased on VM.
-- Azure Monitor CPU alert triggered.
-- Investigation showed CPU spike.
-- Resolution: Stopped CPU-intensive process.
-- Lesson: Performance alerts help detect resource exhaustion.
+- CPU usage was artificially increased on VM
+- Azure Monitor CPU alert triggered
+- Investigation showed CPU spike
+- Resolution: Stopped CPU-intensive process
+- Lesson: Performance alerts help detect resource exhaustion
 
 ### Incident 4 — Disk Space Low
-- Large files were created to reduce disk space.
-- Low disk space alert triggered.
-- Resolution: Deleted large files.
-- Lesson: Disk monitoring prevents system failures.
+- Large files were created to reduce disk space
+- Low disk space alert triggered
+- Resolution: Deleted large files
+- Lesson: Disk monitoring prevents system failures
 
 ### Incident 5 — Web Server Down
-- IIS service was stopped.
-- Application Insights availability alert triggered.
-- Resolution: Restarted web service.
-- Lesson: Application-level monitoring is important, not just VM monitoring.
+- IIS service was stopped
+- Application Insights availability alert triggered
+- Resolution: Restarted web service
+- Lesson: Application-level monitoring is important, not just VM monitoring
 
 ### Incident 6 — RBAC Access Denied
-- Reader user attempted to stop a VM.
-- Access was denied.
-- Verified RBAC restrictions were working correctly.
-- Lesson: RBAC prevents unauthorized changes and protects resources.
+- Reader user attempted to stop a VM
+- Access was denied
+- Verified RBAC restrictions were working correctly
+- Lesson: RBAC prevents unauthorized changes and protects resources
 
 ## Cost Optimization
 
